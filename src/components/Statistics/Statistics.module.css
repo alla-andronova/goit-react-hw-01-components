@@ -1,0 +1,16 @@
+.item {
+  flex-direction: column;
+  display: flex;
+  padding: 15px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.label {
+  margin-bottom: 15px;
+}
+.percentage {
+  text-align: center;
+  font-size: 20px;
+}

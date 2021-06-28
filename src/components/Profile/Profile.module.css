@@ -1,0 +1,56 @@
+/* 
+.description {
+  margin: auto;
+}
+
+
+
+ */
+.quantity {
+  font-weight: 700;
+  color: black;
+}
+.profile {
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 50%;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  text-align: start;
+  padding: 25px;
+  max-width: 33%;
+
+  background-color: lightgrey;
+  border-left: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  color: grey;
+}
+.item:last-child {
+  border-right: 1px solid grey;
+}
+.name {
+  text-align: center;
+  font-weight: 800;
+}
+.tag {
+  composes: name;
+  color: grey;
+  font-weight: 700;
+}
+.location {
+  composes: name;
+  color: grey;
+  font-weight: 700;
+}
+.label {
+  margin-bottom: 5px;
+  display: inline-block;
+  text-align: left;
+  color: grey;
+}

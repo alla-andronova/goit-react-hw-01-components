@@ -1,0 +1,15 @@
+.table {
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  padding: 10px;
+  width: 450px;
+}
+.tableName {
+  text-align: center;
+  padding: 15px;
+}
+
+.tableRow {
+  background-color: grey;
+}
